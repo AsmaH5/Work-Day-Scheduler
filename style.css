@@ -9,7 +9,6 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    /* border-left: 1px solid black; */
     padding: 10px;
     text-decoration: none;
     width: 100%;
@@ -40,23 +39,23 @@ body {
   } */
   
   .hour {
-    background-color: #ffffff;
+    background-color: #ffffffef;
     color: #000000;
     border-top: 1px dashed #000000;
   }
   
-  .past {
-    background-color: #d3d3d3;
+  .past  {
+    background-color: #d3d3d3a6;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: rgba(145, 95, 115, 0.788);
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: rgba(145, 95, 115, 0.377);
     color: white;
   }
   
@@ -104,5 +103,11 @@ body {
     border-radius: 0px 10px 10px 0px;
 }
 
+.table  th{
+    background-color: white;
+    color: black;
+}
 
-
+.table  td{
+    border: 1px solid white;
+}
