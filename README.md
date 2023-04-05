@@ -32,7 +32,7 @@ https://asmah5.github.io/Work-Day-Scheduler/
 ## Acknowledgments
 * [W3 schools](https://www.w3schools.com)
 * [Mdn Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Udemy] (https://www.udemy.com/course/50-projects-50-days/learn/lecture/23600000#overview)
+* [Udemy - 50 Projects In 50 Days - HTML, CSS & JavaScript] (https://www.udemy.com/)
 * [stack overflow](https://stackoverflow.com/)
 * [Bootstrap](https://getbootstrap.com/docs/4.1/content/tables/)
 
