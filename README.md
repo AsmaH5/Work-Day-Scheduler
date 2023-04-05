@@ -24,7 +24,7 @@ I have used the Moment.js Links to an external site. library to work with date a
 * Persist events between refreshes of a page.
 
 ## Screenshots of Website:
-
+![Screenshot ](https://user-images.githubusercontent.com/97250633/230135618-43d749fb-436b-4b99-9c83-97902a478225.png)
 
 ## Project Link:
 
