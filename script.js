@@ -8,7 +8,6 @@ function displayTime() {
 
 displayTime()
 
-//Time and text area
 var timeBlockEl = $('#timeblock');
 
 function schedulerTasks(){
@@ -16,21 +15,44 @@ function schedulerTasks(){
     $('.time-blocks').each(function () {
         var timeId = parseInt($(this).attr('id'));
     
-        // if the time Id attribute is before the current hour, add the past class
         if (timeId < currentHour) {
           $(this).addClass('past');
-        } // if the time Id attribute is equal to the current hour, remove the past and future classes and add the present class
+        } 
         else if (timeId === currentHour) {
-          $(this).removeClass('past');
-          $(this).removeClass('future');
           $(this).addClass('present');
-        } // If the time Id attribute is greater than the current time, remove the past and present classes and add the future class
+        } 
         else {
-          $(this).removeClass('past');
-          $(this).removeClass('present');
           $(this).addClass('future');
         }
       });
 }
 
 schedulerTasks();
+
+var saveButtons = document.querySelectorAll("#saveBtn");
+
+saveButtons.forEach(function(button){
+    button.addEventListener("click", saveAppt);
+});
+
+function saveAppt() {
+    // get nearby values of the description in jQuery
+    var textValue = $(this).siblings()[1].children[0].value;
+    // get the id attribute of the parent div element
+    var timeKey = $(this).siblings()[0].textContent;
+  
+    // save in local storage
+    localStorage.setItem(timeKey, textValue);
+  };
+  
+  // Get item from local storage if any
+  $('#9 .textarea').val(localStorage.getItem('9am'));
+  $('#10 .textarea').val(localStorage.getItem('10am'));
+  $('#11 .textarea').val(localStorage.getItem('11am'));
+  $('#12 .textarea').val(localStorage.getItem('12am'));
+  $('#13 .textarea').val(localStorage.getItem('1pm'));
+  $('#14 .textarea').val(localStorage.getItem('2pm'));
+  $('#15 .textarea').val(localStorage.getItem('3pm'));
+  $('#16 .textarea').val(localStorage.getItem('4pm'));
+  $('#17 .textarea').val(localStorage.getItem('5pm'));
+  $('#18 .textarea').val(localStorage.getItem('6pm'));
