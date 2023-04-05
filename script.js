@@ -36,16 +36,14 @@ saveButtons.forEach(function(button){
 });
 
 function saveAppt() {
-    // get nearby values of the description in jQuery
+    
     var textValue = $(this).siblings()[1].children[0].value;
-    // get the id attribute of the parent div element
+
     var timeKey = $(this).siblings()[0].textContent;
   
-    // save in local storage
     localStorage.setItem(timeKey, textValue);
   };
   
-  // Get item from local storage if any
   $('#9 .textarea').val(localStorage.getItem('9am'));
   $('#10 .textarea').val(localStorage.getItem('10am'));
   $('#11 .textarea').val(localStorage.getItem('11am'));
