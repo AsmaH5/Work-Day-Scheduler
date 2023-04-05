@@ -27,12 +27,12 @@ I have used the Moment.js Links to an external site. library to work with date a
 ![Screenshot ](https://user-images.githubusercontent.com/97250633/230135618-43d749fb-436b-4b99-9c83-97902a478225.png)
 
 ## Project Link:
-
+https://asmah5.github.io/Work-Day-Scheduler/
 
 ## Acknowledgments
 * [W3 schools](https://www.w3schools.com)
 * [Mdn Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Udemy] (50 Projects In 50 Days - HTML, CSS & JavaScript)
+* [Udemy] (https://www.udemy.com/course/50-projects-50-days/learn/lecture/23600000#overview)
 * [stack overflow](https://stackoverflow.com/)
 * [Bootstrap](https://getbootstrap.com/docs/4.1/content/tables/)
 
